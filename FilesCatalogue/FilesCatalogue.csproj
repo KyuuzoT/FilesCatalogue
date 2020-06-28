@@ -66,6 +66,7 @@
     <Compile Include="Data\AudioFile.cs" />
     <Compile Include="Data\CommonFile.cs" />
     <Compile Include="Data\VideoFile.cs" />
+    <Compile Include="Logger\LoggingSystem.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -97,8 +98,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Logger\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
