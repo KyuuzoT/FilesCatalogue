@@ -15,6 +15,7 @@ namespace FilesCatalogue.Logger
         private static string _logfileExtension = ".txt";
         private static string _currentLogName;
         private static long _maxLogSize = 30 * 1024;
+        private static LoggingLevel _level = LoggingLevel.Info;
 
         private LoggingSystem()
         {
@@ -28,6 +29,14 @@ namespace FilesCatalogue.Logger
             }
 
             return _instance;
+        }
+
+        public LoggingLevel SetLevel
+        {
+            set
+            {
+                _level = value;
+            }
         }
 
         public void GenerateLog()
