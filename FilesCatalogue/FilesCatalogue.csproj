@@ -66,6 +66,7 @@
     <Compile Include="Data\AudioFile.cs" />
     <Compile Include="Data\CommonFile.cs" />
     <Compile Include="Data\VideoFile.cs" />
+    <Compile Include="Logger\LoggingLevel.cs" />
     <Compile Include="Logger\LoggingSystem.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
