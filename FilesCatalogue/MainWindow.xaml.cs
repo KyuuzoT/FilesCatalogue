@@ -24,5 +24,9 @@ namespace FilesCatalogue
         {
             InitializeComponent();
         }
+
+        public void Foo()
+        {
+        }
     }
 }
